@@ -6,7 +6,6 @@ import {INCREMENT, DECREMENT} from './types'
 const initialState = {likes: 0}  ////в компонте props.like
 
 export const likesReducer=(state=initialState, action)=> {
-    console.log("likesReducer - action >>", action)
     switch(action.type){
         case INCREMENT:
             return {
