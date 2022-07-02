@@ -2,8 +2,9 @@ import {useSelector, useDispatch} from "react-redux"
 import {inputText} from "./redux/actions"
 
 
-function Title() {
-    const dispatch = useDispatch()
+function Title(props) {
+    console.log("title-props -->", props)
+    const dispatch = useDispatch();
     const text=useSelector((state)=> {
         console.log("title-state-->", state)
         const {inputReducer} =state  //state.inputReducer.text
