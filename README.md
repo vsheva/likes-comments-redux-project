@@ -8,7 +8,6 @@
 - React Hooks
 - JavaScript (ES6)
 - HTML5
-- Webpack
 
 
 
