@@ -3,6 +3,7 @@ import { decrementLikes, incrementLikes } from './redux/actions';
 
 function Likes(props) {
   console.log('render props', props);
+
   return (
     <div className="button-controls">
       <button onClick={props.onIncrementLikes}>❤{props.likes}</button>
@@ -11,11 +12,11 @@ function Likes(props) {
   );
 }
 
-//притянули лайки из reducer
+//с помошью функции ниже мы имеем доступ к состоянию-притянули лайки из reducer
 function mapStateToProps(state) {
   console.log('likes-state==>', state);
   return {
-    likes: state.likesReducer.likes, //  //общий->rootreducer->likesReducer доступно свойство лайки из стейта, которое мы передаем через переменную like в пропсы
+    likes: state.likesReducer.likes, //  //общий->rootreducer( state ={likesReducer})->likesReducer (state={likes:0}) --> доступно свойство лайки из стейта, которое мы передаем через переменную like в пропсы
   };
 }
 

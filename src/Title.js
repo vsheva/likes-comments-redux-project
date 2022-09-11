@@ -1,17 +1,20 @@
+import React from "react";
 import { useSelector, useDispatch } from 'react-redux';
 import { inputText } from './redux/actions';
 
+
 function Title(props) {
-  console.log('title-props -->', props);
+
+
   const dispatch = useDispatch();
+
   const text = useSelector(state => {
-    console.log('title-state-->', state);
-    const { inputReducer } = state; //state.inputReducer.text
-    return inputReducer.text;
+    //console.log(state)  ___   {inputReducer:{text:  "Surf.."}, likesReducer:{likes:0}}
+    return state.inputReducer.text;   //state, который приходит из redux
   });
 
+
   const onChangeHandler = e => {
-    console.log('handle text', e.target.value);
     dispatch(inputText(e.target.value)); //отправляем в UI ф-ю actionCreator, т.е. наш action c текстом - inputText(text)
   };
 

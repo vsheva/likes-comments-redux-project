@@ -1,16 +1,19 @@
-import { COMMENT, COMMENT_UPDATE, COMMENT_DELETE } from './types';
-
-//STATE=initialState={comment:[]}
+import { COMMENT_CREATE, COMMENT_UPDATE, COMMENT_DELETE } from './types';
 
 const initialState = {
   comments: [],
 };
 
 export const commentsReducer = (state = initialState, action) => {
-  console.log('action', action);
+
+  //получили actions сюда из comments
+  console.log('action', action); //{type: "COMMENT_CREATE", data:{text:"aaa", id:"ldd5"}}
+  console.log('action', action); //{type: "COMMENT_CREATE", data:{text:"ddff", id:"ld546"}}
+
+  console.log('action-delete', action); //{type: "COMMENT_DELETE", id:"ghio545"}
 
   switch (action.type) {
-    case COMMENT:
+    case COMMENT_CREATE:
       return {
         ...state, // (скопировали  записали скопированные массивы в новый  обьект)
         comments: [...state.comments, action.data], //data приходит из action, state.comment из state        //state={comments:[id..., text...]}   //все предущие элементы конкретного в новый и добавили action.data
@@ -23,11 +26,7 @@ export const commentsReducer = (state = initialState, action) => {
       //индексное значение элемента,  id которого равен id, которое мы получаем в экшене ~т.е.
       //мы знаем индексное значение коммента, который хотим поменять
       const itemIndex = comments.findIndex(res => res.id === data.id);
-      const nextComments = [
-        ...comments.slice(0, itemIndex),
-        data,
-        ...comments.slice(itemIndex + 1),
-      ];
+      const nextComments = [...comments.slice(0, itemIndex), data, ...comments.slice(itemIndex + 1)];
 
       return {
         ...state, // (скопировали  записали скопированные массивы в новый  обьект)

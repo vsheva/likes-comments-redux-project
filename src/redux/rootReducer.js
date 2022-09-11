@@ -7,7 +7,9 @@ import { commentsReducer } from './commentsReducer';
 //state.likesReducer.likes
 
 export const rootReducer = combineReducers({
+
   likesReducer: likesReducer,
   inputReducer: inputReducer,
   commentsReducer: commentsReducer,
+
 });

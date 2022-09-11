@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c08e8d74-d460-4a3f-8223-4fe87323ff53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/react-redux-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Likes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Likes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingleComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleComment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/commentsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/commentsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/inputReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/inputReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/likesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/likesReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2BOJMamLGjOEACeurS75w4rX1Cb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-behind" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c08e8d74-d460-4a3f-8223-4fe87323ff53" name="Default Changelist" comment="" />
+      <created>1656771150418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656771150418</updated>
+      <workItem from="1656771153959" duration="22320000" />
+      <workItem from="1656796032480" duration="13533000" />
+      <workItem from="1656918913596" duration="1446000" />
+      <workItem from="1657291761311" duration="8891000" />
+      <workItem from="1657301154364" duration="834000" />
+      <workItem from="1657378082744" duration="13771000" />
+      <workItem from="1657569887672" duration="6959000" />
+      <workItem from="1662840227066" duration="217000" />
+      <workItem from="1662899947014" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1656783369552">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1656783369552" />
+    <state x="963" y="167" key="FileChooserDialogImpl" timestamp="1657704990946">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="963" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1657704990946" />
+    <state width="714" height="208" key="GridCell.Tab.0.bottom" timestamp="1656771745582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="714" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656771745582" />
+    <state width="714" height="208" key="GridCell.Tab.0.center" timestamp="1656771745582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="714" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1656771745582" />
+    <state width="714" height="208" key="GridCell.Tab.0.left" timestamp="1656771745582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="714" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1656771745582" />
+    <state width="714" height="208" key="GridCell.Tab.0.right" timestamp="1656771745582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="714" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1656771745582" />
+  </component>
+</project>
