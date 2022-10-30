@@ -12,6 +12,6 @@
 
 
 ### Commands:
-- run `npm install`
+- run  `npm install`
 - start project `npm start`
 
